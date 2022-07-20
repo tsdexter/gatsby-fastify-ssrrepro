@@ -5,7 +5,8 @@ export const Nav = () => <ul>
   <li><Link to="/nested/page-1">SSG Page 1</Link></li>
   <li><Link to="/nested/page-2">SSG Page 2</Link></li>
   <li><Link to="/nested/page-3">SSG Page 3</Link></li>
-  <li><Link to="/ssr-page">SSR Page 1</Link></li>
+  <li><Link to="/ssr-page">Regular SSR Page 1 (works)</Link></li>
+  <li><Link to="/nested/fallback">SSR 'fallback' Page (doesn't work in prod, only dev or standard gatsby (ie: gatsby cloud))</Link></li>
 </ul>
 
 // markup
